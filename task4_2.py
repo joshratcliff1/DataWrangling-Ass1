@@ -34,7 +34,7 @@ Expected_Values = b[3]
 chi_square = sum([(o-e)**2./e for o,e in zip(Observed_Values,Expected_Values)])
 # print(chi_square)
 chi_square_statistic = sum(chi_square)
-# print("chi-square statistic:-",chi_square_statistic)
+print("chi-square statistic: ",chi_square_statistic)
 
 # Calculate n
 pre_n = sum([o for o in Observed_Values])
